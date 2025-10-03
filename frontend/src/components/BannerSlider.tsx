@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import Link from "next/link";
 
 const BannerSlider = () => {
   return (
@@ -31,9 +32,25 @@ const BannerSlider = () => {
             <p className="mt-2">
               Discover our latest collection of modern furniture.
             </p>
-            <button className="mt-4 px-6 py-2 bg-yellow-500 text-black rounded-full">
-              Shop Now
-            </button>
+            <Link href="/products">
+              <button
+                className="
+      mt-4
+      px-8 py-3
+      bg-gradient-to-r from-emerald-600 via-emerald-500 to-emerald-400
+      text-white font-semibold
+      rounded-2xl
+      shadow-lg
+      hover:shadow-2xl
+      transform hover:-translate-y-1 hover:scale-105
+      transition-all duration-300
+      focus:outline-none focus:ring-4 focus:ring-emerald-300
+      rounded-full
+    "
+              >
+                Shop Now
+              </button>
+            </Link>
           </div>
         </div>
       </SwiperSlide>
@@ -49,9 +66,30 @@ const BannerSlider = () => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
             <h2 className="text-3xl font-bold">Comfortable Bedrooms</h2>
             <p className="mt-2">Make your bedroom cozy and stylish.</p>
-            <button className="mt-4 px-6 py-2 bg-yellow-500 text-black rounded-full">
-              Shop Now
-            </button>
+            {/* <Link href="/products">
+              <button className="mt-4 px-6 py-2 bg-yellow-500 text-black rounded-full">
+                Shop Now
+              </button>
+            </Link> */}
+            <Link href="/products">
+              <button
+                className="
+      mt-4
+      px-8 py-3
+      bg-gradient-to-r from-emerald-600 via-emerald-500 to-emerald-400
+      text-white font-semibold
+      rounded-2xl
+      shadow-lg
+      hover:shadow-2xl
+      transform hover:-translate-y-1 hover:scale-105
+      transition-all duration-300
+      focus:outline-none focus:ring-4 focus:ring-emerald-300
+      rounded-full
+    "
+              >
+                Shop Now
+              </button>
+            </Link>
           </div>
         </div>
       </SwiperSlide>
