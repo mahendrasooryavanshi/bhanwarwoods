@@ -1,0 +1,26 @@
+{
+  "PRODUCTS_CATEGORY": {
+    "SEATING": 1,
+    "TABLE": 2,
+    "STORAGE": 3
+  },
+
+  "PRODUCTS_SUBCATEGORY": {
+    "SEATING": [
+      { "id": 101, "name": "Chairs" },
+      { "id": 102, "name": "Loungers" },
+      { "id": 103, "name": "Benches" },
+      { "id": 104, "name": "Stools" }
+    ],
+    "TABLE": [
+      { "id": 201, "name": "Dining Tables" },
+      { "id": 202, "name": "Coffee Tables" },
+      { "id": 203, "name": "Side Tables" }
+    ],
+    "STORAGE": [
+      { "id": 301, "name": "Cabinets" },
+      { "id": 302, "name": "Shelves" },
+      { "id": 303, "name": "Wardrobes" }
+    ]
+  }
+}

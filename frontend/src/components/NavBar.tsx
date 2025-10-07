@@ -31,11 +31,11 @@ export default function NavBar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
         {/* Logo + Site Name */}
         <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-          <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg border-4 border-blue-500 dark:border-blue-400 overflow-hidden transition-transform hover:scale-105">
+          <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg border-4 border-blue-500 dark:border-blue-400 overflow-hidden transition-transform hover:scale-150">
             <img
-              src="https://bhanwarwoods.com/wp-content/uploads/2025/09/cropped-COMPANY-LOGO.jpg"
+              src="/images/logo/logo.png"
               alt="Logo"
-              className="object-contain w-10 h-10 sm:w-12 sm:h-12"
+              className="object-contain w-16 h-16 sm:w-20 sm:h-20 scale-150"
             />
           </div>
           <span className="text-xl sm:text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-green-600 via-amber-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-lg tracking-wider transform transition-all duration-300 hover:scale-105 hover:drop-shadow-2xl whitespace-nowrap">
