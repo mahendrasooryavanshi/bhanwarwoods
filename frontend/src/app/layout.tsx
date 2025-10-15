@@ -2,7 +2,7 @@ import "./globals.css";
 import { ReactNode } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Bhanwarwoods.com",
   description: "Modern furniture eCommerce",
@@ -13,7 +13,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="min-h-screen flex flex-col">
         <NavBar />
-        <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
+        <main className="flex-1 container mx-auto px-4 py-8">
+          {children}
+          <SpeedInsights />
+        </main>
         <Footer />
       </body>
     </html>
