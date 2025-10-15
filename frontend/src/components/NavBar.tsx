@@ -31,7 +31,7 @@ export default function NavBar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
         {/* Logo + Site Name */}
         <Link
-          href="/"
+          href="https://www.bhanwarwoods.com"
           rel="preload"
           as="image"
           className="flex items-center gap-3 flex-shrink-0"
