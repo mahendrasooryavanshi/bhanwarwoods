@@ -144,7 +144,7 @@ export default function ContactPage() {
                 📞 Phone
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                +91 91316 38191
+                +91 98765 43210
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
