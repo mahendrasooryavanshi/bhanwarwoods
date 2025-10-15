@@ -88,7 +88,7 @@ export default function Footer() {
               <span className="font-semibold text-white">Support Info</span>
               <div className="flex items-center gap-2">
                 <FaPhoneAlt className="text-green-500" />
-                <span>+91 9131638191</span>
+                <span>+91 7742686595</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaEnvelope className="text-green-500" />

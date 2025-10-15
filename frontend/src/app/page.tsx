@@ -100,7 +100,7 @@ export default function HomePage() {
                   📞 Phone
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  +91 91316 38191
+                  +91 77426 86595
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">

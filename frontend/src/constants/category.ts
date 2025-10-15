@@ -1,37 +1,37 @@
-// categories.ts
+
 export type CategoryType = {
     id: number;
-    name: string;
-    subcategories: { id: number; name: string }[];
+    title: string;
+    subcategories: { id: number; title: string }[];
 };
 
 const categories: CategoryType[] = [
     {
         id: 1,
-        name: "Seating",
+        title: "Seating",
         subcategories: [
-            { id: 101, name: "Chairs" },
-            { id: 102, name: "Loungers" },
-            { id: 103, name: "Benches" },
-            { id: 104, name: "Stools" },
+            { id: 101, title: "Chairs" },
+            { id: 102, title: "Loungers" },
+            { id: 103, title: "Benches" },
+            { id: 104, title: "Stools" },
         ],
     },
     {
         id: 2,
-        name: "Tables",
+        title: "Tables",
         subcategories: [
-            { id: 201, name: "Dining Tables" },
-            { id: 202, name: "Coffee Tables" },
-            { id: 203, name: "Study Tables" },
-            { id: 204, name: "Side Tables" },
+            { id: 201, title: "Dining Tables" },
+            { id: 202, title: "Coffee Tables" },
+            { id: 203, title: "Study Tables" },
+            { id: 204, title: "Side Tables" },
         ],
     },
     {
         id: 3,
-        name: "Storage",
+        title: "Storage",
         subcategories: [
-            { id: 301, name: "Consoles" },
-            { id: 302, name: "Shelving Units" },
+            { id: 301, title: "Consoles" },
+            { id: 302, title: "Shelving Units" },
         ],
     },
 ];
