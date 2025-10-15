@@ -30,22 +30,17 @@ export default function NavBar() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
         {/* Logo + Site Name */}
-        <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-          {/* <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg  overflow-hidden transition-transform hover:scale-150">
+        <Link
+          href="/"
+          rel="preload"
+          as="image"
+          className="flex items-center gap-3 flex-shrink-0"
+        >
+          <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg  overflow-hidden transition-transform hover:scale-150">
             <img
               src="/images/logo/logo1.jpg"
               alt="Logo"
               className="object-contain w-12 h-12 sm:w-20 sm:h-20 scale-180"
-            />
-          </div> */}
-          <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg overflow-hidden">
-            <img
-              src="/images/logo/logo1.jpg"
-              alt="Logo"
-              width={80}
-              height={80}
-              className="object-contain w-full h-full transition-none"
-              style={{ transform: "none" }}
             />
           </div>
 
@@ -53,7 +48,6 @@ export default function NavBar() {
             Bhanwarwoods
           </span>
         </Link>
-
         {/* Desktop Menu */}
         <div className="hidden md:flex flex-1 flex-wrap justify-end items-center gap-6 font-medium text-gray-700 dark:text-gray-200 text-base sm:text-sm">
           {navLinks.map((link) => (
@@ -70,10 +64,8 @@ export default function NavBar() {
             </Link>
           ))}
         </div>
-
         {/* Spacer for alignment */}
         <div className="hidden md:block w-10" />
-
         {/* Mobile Hamburger */}
         <div className="md:hidden ml-auto">
           <button

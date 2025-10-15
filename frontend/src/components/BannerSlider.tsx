@@ -24,6 +24,7 @@ const BannerSlider = () => {
           <img
             src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Modern Living Room"
+            rel="preload"
             className="object-cover w-full h-full"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
@@ -60,6 +61,7 @@ const BannerSlider = () => {
           <img
             src="https://images.unsplash.com/photo-1721523262341-3dcd41e25128?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDY1fHx8ZW58MHx8fHx8"
             alt="Cozy Bedroom"
+            rel="preload"
             className="object-cover w-full h-full"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
