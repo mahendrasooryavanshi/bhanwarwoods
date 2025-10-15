@@ -31,6 +31,14 @@ export default function NavBar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
         {/* Logo + Site Name */}
         <Link href="/" className="flex items-center gap-3 flex-shrink-0">
+          {/* <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg  overflow-hidden transition-transform hover:scale-150">
+            <img
+              src="/images/logo/logo1.jpg"
+              alt="Logo"
+              className="object-contain w-12 h-12 sm:w-20 sm:h-20 scale-180"
+            />
+          </div> */}
+
           <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg  overflow-hidden transition-transform hover:scale-150">
             <img
               src="/images/logo/logo1.jpg"
