@@ -38,14 +38,17 @@ export default function NavBar() {
               className="object-contain w-12 h-12 sm:w-20 sm:h-20 scale-180"
             />
           </div> */}
-
-          <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg  overflow-hidden transition-transform hover:scale-150">
+          <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg overflow-hidden">
             <img
               src="/images/logo/logo1.jpg"
               alt="Logo"
-              className="object-contain w-12 h-12 sm:w-20 sm:h-20 scale-180"
+              width={80}
+              height={80}
+              className="object-contain w-full h-full transition-none"
+              style={{ transform: "none" }}
             />
           </div>
+
           <span className="text-xl sm:text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-green-600 via-amber-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-lg tracking-wider transform transition-all duration-300 hover:scale-105 hover:drop-shadow-2xl whitespace-nowrap">
             Bhanwarwoods
           </span>
