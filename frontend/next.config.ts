@@ -1,3 +1,23 @@
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: true,
+
+//   images: {
+//     domains: ['dummyjson.com'], // add external image domains if needed
+//   },
+
+//   experimental: {
+//     ...(process.env.NODE_ENV === "development"
+//       ? {
+//         allowedDevOrigins: ["*"], // allow all origins in dev
+//       }
+//       : {}),
+//   },
+// };
+
+// module.exports = nextConfig;
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -5,9 +25,6 @@ const nextConfig = {
   },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  experimental: {
-    appDir: 'src/app', // 👈 tells Next.js where your app directory is
   },
 };
 
