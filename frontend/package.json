@@ -12,11 +12,12 @@
     "@google/model-viewer": "^4.1.0",
     "@heroicons/react": "^2.2.0",
     "@vercel/speed-insights": "^1.2.0",
-    "framer-motion": "^12.23.22",
+    "framer-motion": "^12.23.24",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
+    "react-medium-image-zoom": "^5.4.0",
     "swiper": "^12.0.2"
   },
   "devDependencies": {

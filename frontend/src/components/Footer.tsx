@@ -38,7 +38,7 @@ export default function Footer() {
             <a href="/contact" className="hover:text-white transition">
               Contact
             </a>
-            <a href="/shop" className="hover:text-white transition">
+            <a href="/products" className="hover:text-white transition">
               Shop
             </a>
             <a href="/privacy" className="hover:text-white transition">
