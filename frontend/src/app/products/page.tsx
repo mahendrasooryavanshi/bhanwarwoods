@@ -212,7 +212,7 @@ export default function ProductsPage() {
             {filtered.map((product) => (
               <Link
                 key={product.id}
-                href={`/product/${product.id}`}
+                href={`/products/${product.id}`}
                 // href={`https://dummyjson.com/products/${product.id}`}
                 className="bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col"
               >
