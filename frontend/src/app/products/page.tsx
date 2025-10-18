@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { FunnelIcon, XMarkIcon } from "@heroicons/react/24/outline"; // heroicons
-
+// changes
 interface Product {
   id: number;
   title: string;
