@@ -46,6 +46,33 @@ interface Product {
   reviews: Review[];
 }
 
+// --- New helper function to add to cart (minimal changes) ---
+function addToCartLocal(product: { id: number; title: string; price: number }) {
+  try {
+    const cartJson = localStorage.getItem("cart") || "[]";
+    const cart: {
+      id: number;
+      title: string;
+      price: number;
+      quantity: number;
+    }[] = JSON.parse(cartJson);
+    const existing = cart.find((item) => item.id === product.id);
+    if (existing) {
+      existing.quantity += 1;
+    } else {
+      cart.push({
+        id: product.id,
+        title: product.title,
+        price: product.price,
+        quantity: 1,
+      });
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+  } catch (error) {
+    console.error("Error adding to cart:", error);
+  }
+}
+
 export default function ProductDetailsPage() {
   const { id } = useParams();
   const router = useRouter();
@@ -195,7 +222,11 @@ export default function ProductDetailsPage() {
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <button
               className="flex-1 bg-green-600 text-white font-semibold py-3 rounded shadow hover:bg-green-700 transition"
-              onClick={() => alert("Added to cart!")}
+              // onClick={() => alert("Added to cart!")}
+              onClick={() => {
+                addToCartLocal(product);
+                alert(`${product.title} added to cart`);
+              }}
             >
               Add to Cart
             </button>

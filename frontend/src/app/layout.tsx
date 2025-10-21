@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ProductProvider } from "@/context/ProductContext";
+import { CartProvider } from "@/context/CartContext";
 export const metadata = {
   title: "Bhanwarwoods.com",
   description: "Modern furniture eCommerce",
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -26,11 +27,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           href="/favicon-32x32.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-      </head>
+      </head> */}
       <body className="min-h-screen flex flex-col">
         <NavBar />
         <main className="flex-1 container mx-auto px-4 py-8">
-          <ProductProvider>{children}</ProductProvider>
+          <ProductProvider>
+            <CartProvider>{children}</CartProvider>
+          </ProductProvider>
+
           <SpeedInsights />
         </main>
         <Footer />
