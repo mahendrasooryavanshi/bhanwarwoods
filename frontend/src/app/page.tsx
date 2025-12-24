@@ -116,17 +116,18 @@ export default function HomePage() {
                   📍 Address
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Indrapuri Laxmi Plaza, Bhawarkua, near Physics Walla Building,
-                  Indore, MP 452001
+                  Mourya Executive Building, Manavta Nagar, Indore, Madhya
+                  Pradesh 452016
                 </p>
               </div>
 
               {/* Optional Map */}
               <div className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow-md mt-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.120481175163!2d75.83521107524457!3d22.720678484999236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e6ef45ef123b%3A0xc8b422c8fa4b5c7!2sLaxmi%20Plaza%2C%20Bhawarkua%2C%20Indore%2C%20Madhya%20Pradesh%20452001!5e0!3m2!1sen!2sin!4v1696250000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.566590981195!2d75.86424607524402!3d22.70453048500419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd6c8c7b5b27%3A0x5f9c5a9c2c8f3f8a!2sMourya%20Executive%2C%20Manavta%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452016!5e0!3m2!1sen!2sin!4v1735060000000!5m2!1sen!2sin"
                   className="w-full h-48 rounded-xl"
                   loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>
