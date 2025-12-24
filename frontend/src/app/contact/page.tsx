@@ -144,7 +144,7 @@ export default function ContactPage() {
                 📞 Phone
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                +91 98765 43210
+                +91 77426 86595
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
@@ -160,8 +160,8 @@ export default function ContactPage() {
                 📍 Address
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Indrapuri Laxmi Plaza, Bhawarkua, near Physics Walla Building,
-                Indore, MP 452001
+                Mourya Executive Building, Manavta Nagar, Indore, Madhya Pradesh
+                452016
               </p>
             </div>
 
