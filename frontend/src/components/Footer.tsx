@@ -1,3 +1,4 @@
+"use client";
 import {
   FaFacebookF,
   FaInstagram,
@@ -97,11 +98,11 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <FaMapMarkerAlt className="text-green-500 mt-1" />
                 <span>
-                  Indrapuri Laxmi Plaza, Bhawarkua,
+                  Mourya Executive Building,
                   <br />
-                  near Physics Walla Building,
+                  Manavta Nagar, Indore
                   <br />
-                  Indore, MP 452001
+                  Madhya Pradesh 452016
                 </span>
               </div>
             </div>

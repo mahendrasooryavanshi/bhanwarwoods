@@ -61,16 +61,24 @@ export default function AboutPage() {
               About Us
             </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed mb-4">
-              At FurnitureStore, we are passionate about creating spaces that
+              {/* At FurnitureStore, we are passionate about creating spaces that
               inspire comfort, elegance, and modern living. Our curated
               collection blends timeless craftsmanship with contemporary
               aesthetics — ensuring every piece adds style and functionality to
-              your home.
+              your home. */}
+              Introducing our exquisite wooden products - A fusion of elegance
+              and functionality that transforms everyday moments into
+              extraordinary experiences. Crafted from the finest,
+              sustainably-sourced hardwood, each product boasts a unique grain
+              pattern that tells its own story, making every piece a
+              one-of-a-kind treasure.
             </p>
             <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed mb-4">
-              We prioritize sustainable materials, innovative designs, and
-              meticulous attention to detail. Whether redesigning your living
-              room or upgrading your office, our furniture is crafted to last.
+              The smooth, polished surface is not only a testament to the skill
+              and dedication of our artisans but also a practical feature that
+              ensures easy cleaning and durability.Experience the blend of
+              beauty and practicality with our Handcrafted Wooden Trays and
+              Boards – where tradition meets modern elegance.
             </p>
             <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
               From our online store to your doorstep, we’re committed to making
@@ -117,24 +125,24 @@ export default function AboutPage() {
         >
           {[
             {
+              icon: "🪵",
+              title: "Custom Wooden Furniture",
+              desc: "Made-to-order furniture crafted to your exact size, style, and needs.",
+            },
+            {
               icon: "🪑",
-              title: "Quality Furniture",
-              desc: "Handpicked materials for long-lasting use.",
+              title: "Premium Craftsmanship",
+              desc: "Expert artisans using high-quality, durable wood materials.",
             },
             {
-              icon: "🚚",
-              title: "Fast Delivery",
-              desc: "Quick and safe shipping to your doorstep.",
-            },
-            {
-              icon: "💡",
-              title: "Modern Design",
-              desc: "Trendy, stylish, and functional pieces.",
+              icon: "🎨",
+              title: "Design Personalization",
+              desc: "Choose wood type, finish, color, and texture that fits your space.",
             },
             {
               icon: "🌱",
-              title: "Sustainable",
-              desc: "Eco-friendly materials and processes.",
+              title: "Sustainable & Eco-Friendly",
+              desc: "Responsibly sourced wood with environmentally conscious processes.",
             },
           ].map((item) => (
             <motion.div
